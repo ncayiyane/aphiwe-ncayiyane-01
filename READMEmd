@@ -1,0 +1,19 @@
+#  Rock Paper Scissors Game  
+
+## Description  
+A stylish and interactive **Rock Paper Scissors** game where you play against an AI.  
+Keeps track of **wins, losses, and draws**, with a modern UI using **Font Awesome icons**.
+
+##  How to Play  
+1. Click on **  (Rock),  (Paper), or  (Scissors)**.  
+2. The AI randomly selects an option.  
+3. The result will be displayed:
+   -  **You win!**
+   -  **You lose!**
+   -  **It's a draw!**  
+4. Reset the game anytime using ** Restart Game**.
+
+##  How to Run Locally  
+1. Clone the repository:  
+   ```bash
+   git clone https://github.com/aphiwe-ncayiyane-01.git
