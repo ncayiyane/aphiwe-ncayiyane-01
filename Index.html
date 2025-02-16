@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Rock Paper Scissors</title>
+        <link rel="stylesheet" href="style.css">
+        <!-- Updated Font Awesome CDN -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    </head>
+<body>
+    <div class="container">
+        <h1> Rock<i class="fa-solid fa-hand-back-fist fa-shake" style="color: #FFD43B;"></i>
+            Paper
+            <i class="fa-solid fa-hand" style="color: #1f492a;"></i>
+            Scissors
+            <i class="fa-solid fa-hand-scissors fa-shake" style="color: #74C0FC;"></i>
+
+        </h1>
+        
+        <div class="scoreboard">
+            <p><i class="fa-regular fa-user"></i> You: <span id="user-score">0</span></p>
+            <p><i class="fa-solid fa-computer" style="color: #49c328;"></i> AI: <span id="computer-score">0</span></p>
+            <p><i class="fa-regular fa-handshake" style="color: #FFD43B;"></i>Draws: <span id="draw-score">0</span></p>
+        </div>
+
+        <div class="choices">
+            <button onclick="playGame('rock')" class="choice-btn"><i class="fa-solid fa-hand-back-fist fa-shake" style="color: #FFD43B;"></i></button>
+            <button onclick="playGame('paper')" class="choice-btn"><i class="fa-solid fa-hand" style="color: #1f492a;"></i></button>
+            <button onclick="playGame('scissors')" class="choice-btn"><i class="fa-solid fa-hand-scissors fa-shake" style="color: #74C0FC;"></i></button>
+        </div>
+
+        <p id="result">Make your move!</p>
+
+        <div class="reset">
+            <button onclick="resetGame()"><i class="fa-solid fa-recycle"></i>  Restart Game</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
